@@ -49,9 +49,6 @@ if (! function_exists('_s_setup')) {
         register_nav_menus([
             'menu-1'               => esc_html__('Primary', 'sobold'),
             'footer-main-menu'     => esc_html__('Footer Main Menu', 'sobold'),
-            'footer-markets-menu'  => esc_html__('Footer Markets Menu', 'sobold'),
-            'footer-services-menu' => esc_html__('Footer Services Menu', 'sobold'),
-            'legal'                => esc_html__('Legal', 'sobold'),
         ]);
 
         /*
