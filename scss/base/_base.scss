@@ -38,13 +38,13 @@ body {
 }
 
 //* Colors
-@each $key, $color in $colors {
-    .#{$key} {
-        color: $color;
+@each $color in $colors {
+    .#{$color} {
+        color: color($color);
     }
 
-    .bg-#{$key} {
-        background-color: $color;
+    .bg-#{$color} {
+        background-color: ($color);
     }
 }
 
