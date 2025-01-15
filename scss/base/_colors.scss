@@ -1,6 +1,13 @@
 :root {
     // Primitive tokens
     --neutral-0: #fff;
+    --neutral-40: #a6abb1;
+    --red-100: #d50110;
+    --green-100: #188038;
+
     // Semantic tokens
     --text-inverse: var(--neutral-0);
+    --text-disabled: var(--neutral-40);
+    --text-error: var(--red-100);
+    --text-success: var(--green-100);
 }

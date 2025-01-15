@@ -1,5 +1,10 @@
 //* Colours
-$colors: ('text/inverse');
+$colors: (
+    'text/inverse',
+    'text/disabled',
+    'text/error',
+    'text/success',
+)
 
 //* Grid breakpoints
 $grid-breakpoints: (

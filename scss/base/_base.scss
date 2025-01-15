@@ -39,12 +39,13 @@ body {
 
 //* Colors
 @each $color in $colors {
-    .#{$color} {
+    $colorClass: str-replace($color, '/', '-');
+    .#{$colorClass} {
         color: color($color);
     }
 
-    .bg-#{$color} {
-        background-color: ($color);
+    .bg-#{$colorClass} {
+        background-color: color($color);
     }
 }
 
